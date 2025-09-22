@@ -1,6 +1,6 @@
 
 
-package com.example.subscriptionapp;
+package com.avtor31.retryapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

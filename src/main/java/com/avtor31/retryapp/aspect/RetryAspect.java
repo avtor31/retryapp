@@ -1,8 +1,8 @@
 // src/main/java/com/example/subscriptionapp/aspect/RetryAspect.java
 
-package com.example.subscriptionapp.aspect;
+package com.avtor31.retryapp.aspect;
 
-import com.example.subscriptionapp.annotation.RetryEnabled;
+import com.avtor31.retryapp.annotation.RetryEnabled;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

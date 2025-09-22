@@ -1,9 +1,8 @@
 // src/test/java/com/example/subscriptionapp/repository/FlakySubscriptionRepository.java
 
-package com.example.subscriptionapp.repository;
+package com.avtor31.retryapp.repository;
 
 import org.springframework.dao.DataAccessException;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;

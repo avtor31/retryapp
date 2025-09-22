@@ -1,10 +1,10 @@
 // src/test/java/com/example/subscriptionapp/controller/SubscriptionControllerIT.java
 
-package com.example.subscriptionapp.controller;
+package com.avtor31.retryapp.controller;
 
-import com.example.subscriptionapp.dto.SubscriptionResponse;
-import com.example.subscriptionapp.repository.FakeSubscriptionRepository;
-import com.example.subscriptionapp.repository.FlakySubscriptionRepository;
+import com.avtor31.retryapp.dto.SubscriptionResponse;
+import com.avtor31.retryapp.repository.FakeSubscriptionRepository;
+import com.avtor31.retryapp.repository.FlakySubscriptionRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +18,6 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-
-import java.io.UnsupportedEncodingException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

@@ -1,6 +1,6 @@
 // src/main/java/com/example/subscriptionapp/dto/SubscriptionResponse.java
 
-package com.example.subscriptionapp.dto;
+package com.avtor31.retryapp.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

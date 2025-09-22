@@ -1,4 +1,4 @@
-package com.example.subscriptionapp.repository;
+package com.avtor31.retryapp.repository;
 
 import org.springframework.stereotype.Repository;
 import java.util.List;

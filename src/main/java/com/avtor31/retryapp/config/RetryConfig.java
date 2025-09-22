@@ -1,6 +1,6 @@
 // src/main/java/com/example/subscriptionapp/config/RetryConfig.java
 
-package com.example.subscriptionapp.config;
+package com.avtor31.retryapp.config;
 
 import org.postgresql.util.PSQLException;
 import org.springframework.context.annotation.Bean;

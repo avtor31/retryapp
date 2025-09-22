@@ -1,10 +1,10 @@
 // src/main/java/com/example/subscriptionapp/service/SubscriptionListService.java
 
-package com.example.subscriptionapp.service;
+package com.avtor31.retryapp.service;
 
 
-import com.example.subscriptionapp.annotation.RetryEnabled;
-import com.example.subscriptionapp.repository.FakeSubscriptionRepository;
+import com.avtor31.retryapp.annotation.RetryEnabled;
+import com.avtor31.retryapp.repository.FakeSubscriptionRepository;
 import org.postgresql.util.PSQLException;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.example.subscriptionapp.annotation;
+package com.avtor31.retryapp.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
