@@ -20,7 +20,6 @@ public class RetryConfig {
     public RetryTemplate retryTemplate() {
         RetryTemplate retryTemplate = new RetryTemplate();
 
-        // Стратегия повторов: максимум 3 попытки
         Map<Class<? extends Throwable>, Boolean> retryableExceptions = new HashMap<>();
         retryableExceptions.put(DataAccessException.class, true);
         retryableExceptions.put(PSQLException.class, true);
